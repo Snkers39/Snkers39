@@ -1,6 +1,9 @@
-ipip install pygit2=1.12.2
-acd /content
-Igit clone https://gtthub.com//llyasv1el/Fooocus.gft
-sed /content/Fooncus/models/upscale models/ Ivget - fooocus_upscaler_s409985eS.bin https://huggingface.co/llyasvienise/rese
-Ncd /content/Fooocus
-Ipython entry-with_update.py —share
+!!pip install pygit2==1.12.2
+%cd /content
+!git clone https://github.com/lllyasviel/Fooocus.git
+
+%cd /content/Fooocus/models/upscale models/
+!wget -0 fooocus_upscaler_s409985e5.bin https://huggingface.co/lllyasviel/misc/resolve/main/fooocus_upscaler_s409985e5.bin7download=true
+
+%cd /content/Fooocus
+!python entry_with_update.py --share
